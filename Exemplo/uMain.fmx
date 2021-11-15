@@ -1,0 +1,70 @@
+object frmCrypt: TfrmCrypt
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = Single
+  Caption = 'Crypt'
+  ClientHeight = 437
+  ClientWidth = 350
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object memTexto: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    TextSettings.WordWrap = True
+    Position.X = 24.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 305.000000000000000000
+    Size.Height = 93.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Viewport.Width = 301.000000000000000000
+    Viewport.Height = 89.000000000000000000
+  end
+  object lblTitulo: TLabel
+    Position.X = 24.000000000000000000
+    Position.Y = 26.000000000000000000
+    Size.Width = 305.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'String para Encriptar/Decriptar'
+    TabOrder = 2
+  end
+  object btnCrypt: TButton
+    Position.X = 24.000000000000000000
+    Position.Y = 144.000000000000000000
+    Size.Width = 138.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'Encriptar'
+    OnClick = btnCryptClick
+  end
+  object btnDecrypt: TButton
+    Position.X = 191.000000000000000000
+    Position.Y = 144.000000000000000000
+    Size.Width = 139.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'Decriptar'
+    OnClick = btnDecryptClick
+  end
+  object memResultado: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    ReadOnly = True
+    TextSettings.WordWrap = True
+    Position.X = 24.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 305.000000000000000000
+    Size.Height = 233.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 301.000000000000000000
+    Viewport.Height = 229.000000000000000000
+  end
+end

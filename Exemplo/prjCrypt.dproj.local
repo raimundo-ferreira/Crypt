@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/11/15 09:30:25.000.260,=C:\Users\Raimundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/11/15 09:36:32.000.028,C:\Users\Raimundo\Documents\Embarcadero\Studio\Projects\Crypt\uMain.pas=C:\Users\Raimundo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/11/15 09:36:32.000.028,C:\Users\Raimundo\Documents\Embarcadero\Studio\Projects\Crypt\uMain.fmx=C:\Users\Raimundo\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2021/11/15 09:36:40.000.765,C:\Users\Raimundo\Documents\Embarcadero\Studio\Projects\Crypt\prjCrypt.dproj=C:\Users\Raimundo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/11/15 09:38:13.000.505,=C:\Users\Raimundo\Documents\Embarcadero\Studio\Projects\Crypt\Unit1.pas</Transaction>
+    <Transaction>2021/11/15 09:39:38.000.275,C:\Users\Raimundo\Documents\Embarcadero\Studio\Projects\Crypt\uCrypt.pas=C:\Users\Raimundo\Documents\Embarcadero\Studio\Projects\Crypt\Unit1.pas</Transaction>
+    <Transaction>2021/11/15 11:42:36.073,=C:\Users\Raimundo\Documents\Embarcadero\Studio\Projects\Crypt\src\uCrypt.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="42008634d0d73555" Android64="42008634d0d73555"/>
+	</ActiveMobileDevice>
+</BorlandProject>
